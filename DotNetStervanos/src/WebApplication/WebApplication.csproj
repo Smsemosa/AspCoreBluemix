@@ -1,0 +1,196 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <VersionPrefix>1.0.5</VersionPrefix>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <DebugType>portable</DebugType>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <AssemblyName>WebApplication</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageTargetFallback>portable-net45+win8</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\Bootstrap\bootstrap-min.js" />
+    <Content Include="wwwroot\Bootstrap\bootstrap.css" />
+    <Content Include="wwwroot\Bootstrap\bootstrap.js" />
+    <Content Include="wwwroot\Bootstrap\bootstrap.min.css" />
+    <Content Include="wwwroot\Bootstrap\glyphicons-halflings-regular.eot" />
+    <Content Include="wwwroot\Bootstrap\glyphicons-halflings-regular.svg" />
+    <Content Include="wwwroot\Bootstrap\glyphicons-halflings-regular.ttf" />
+    <Content Include="wwwroot\Bootstrap\glyphicons-halflings-regular.woff" />
+    <Content Include="wwwroot\Bootstrap\glyphicons-halflings-regular.woff2" />
+    <Content Include="wwwroot\Bootstrap\images\ui-icons_444444_256x240.png" />
+    <Content Include="wwwroot\Bootstrap\images\ui-icons_555555_256x240.png" />
+    <Content Include="wwwroot\Bootstrap\images\ui-icons_777620_256x240.png" />
+    <Content Include="wwwroot\Bootstrap\images\ui-icons_777777_256x240.png" />
+    <Content Include="wwwroot\Bootstrap\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="wwwroot\Bootstrap\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="wwwroot\Bootstrap\jquery-ui.css" />
+    <Content Include="wwwroot\css\bootstrap-min.js" />
+    <Content Include="wwwroot\css\bootstrap.css" />
+    <Content Include="wwwroot\css\bootstrap.js" />
+    <Content Include="wwwroot\css\bootstrap.min.css" />
+    <Content Include="wwwroot\CustomScripts\AdminPage\AdminPage.js" />
+    <Content Include="wwwroot\CustomScripts\AdminPage\AdminPageCss.css" />
+    <Content Include="wwwroot\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="wwwroot\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="wwwroot\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="wwwroot\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="wwwroot\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="wwwroot\HomePageCss\HomeP.css" />
+    <Content Include="wwwroot\images\H1.png" />
+    <Content Include="wwwroot\images\H2.jpg" />
+    <Content Include="wwwroot\images\H3.jpg" />
+    <Content Include="wwwroot\images\H4.png" />
+    <Content Include="wwwroot\images\HomePageImages\H1.png" />
+    <Content Include="wwwroot\images\HomePageImages\H2.jpg" />
+    <Content Include="wwwroot\images\HomePageImages\H3.jpg" />
+    <Content Include="wwwroot\images\HomePageImages\H4.png" />
+    <Content Include="wwwroot\images\logo.png" />
+    <Content Include="wwwroot\images\SlideShow\S1.jpg" />
+    <Content Include="wwwroot\images\SlideShow\S2.jpg" />
+    <Content Include="wwwroot\images\SlideShow\S3.jpg" />
+    <Content Include="wwwroot\images\SlideShow\S4.jpg" />
+    <Content Include="wwwroot\images\SlideShow\S5.JPG" />
+    <Content Include="wwwroot\images\SlideShow\S6.JPG" />
+    <Content Include="wwwroot\images\SlideShow\S7.JPG" />
+    <Content Include="wwwroot\images\SlideShow\S8.jpg" />
+    <Content Include="wwwroot\js\jquery-1.7.1.js" />
+    <Content Include="wwwroot\js\jquery-1.7.1.min.js" />
+    <Content Include="wwwroot\js\jquery-1.9.1.js" />
+    <Content Include="wwwroot\js\jquery-2.2.4-min.js" />
+    <Content Include="wwwroot\js\jquery-3.0.0.intellisense.js" />
+    <Content Include="wwwroot\js\jquery-3.0.0.js" />
+    <Content Include="wwwroot\js\jquery-3.0.0.min.js" />
+    <Content Include="wwwroot\js\jquery-3.0.0.min.map" />
+    <Content Include="wwwroot\js\jquery-3.0.0.slim.js" />
+    <Content Include="wwwroot\js\jquery-3.0.0.slim.min.js" />
+    <Content Include="wwwroot\js\jquery-3.0.0.slim.min.map" />
+    <Content Include="wwwroot\js\jquery-migrate-1.4.1.js" />
+    <Content Include="wwwroot\js\jquery-migrate-1.4.1.min.js" />
+    <Content Include="wwwroot\js\jquery-migrate-3.0.0.js" />
+    <Content Include="wwwroot\js\jquery-migrate-3.0.0.min.js" />
+    <Content Include="wwwroot\js\jquery-ui-1.12.1.js" />
+    <Content Include="wwwroot\js\jquery-ui-1.12.1.min.js" />
+    <Content Include="wwwroot\js\jquery-ui-1.8.20.js" />
+    <Content Include="wwwroot\js\jquery-ui-1.8.20.min.js" />
+    <Content Include="wwwroot\js\jquery-unobtrusive-ajax.js" />
+    <Content Include="wwwroot\js\jquery-validate-unobtrusive.js" />
+    <Content Include="wwwroot\js\jquery.unobtrusive-ajax.js" />
+    <Content Include="wwwroot\js\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="wwwroot\js\jquery.validate-vsdoc.js" />
+    <Content Include="wwwroot\js\jquery.validate.js" />
+    <Content Include="wwwroot\js\jquery.validate.min.js" />
+    <Content Include="wwwroot\js\jquery.validate.unobtrusive.min.js" />
+    <Content Include="wwwroot\js\knockout-2.1.0.debug.js" />
+    <Content Include="wwwroot\js\knockout-2.1.0.js" />
+    <Content Include="wwwroot\js\modernizr-2.5.3.js" />
+    <Content Include="wwwroot\js\_references.js" />
+    <Content Include="wwwroot\MainMenu\cbpHorizontalMenu.min.js" />
+    <Content Include="wwwroot\MainMenu\component.css" />
+    <Content Include="wwwroot\MainMenu\default.css" />
+    <Content Include="wwwroot\MainMenu\modernizr.custom.js" />
+    <Content Include="wwwroot\MorrisApiGraphs\flot-data.js" />
+    <Content Include="wwwroot\MorrisApiGraphs\jquery.flot.js" />
+    <Content Include="wwwroot\MorrisApiGraphs\jquery.flot.pie.js" />
+    <Content Include="wwwroot\MorrisApiGraphs\jquery.flot.resize.js" />
+    <Content Include="wwwroot\MorrisApiGraphs\jquery.flot.tooltip.min.js" />
+    <Content Include="wwwroot\MorrisApiGraphs\jquery.js" />
+    <Content Include="wwwroot\MorrisApiGraphs\morris-min.js" />
+    <Content Include="wwwroot\MorrisApiGraphs\morris.css" />
+    <Content Include="wwwroot\MorrisApiGraphs\raphael-min.js" />
+    <Content Include="wwwroot\MorrisApiGraphs\raphael.min.js" />
+    <Content Include="wwwroot\SlideShow\modernizr.custom.86080.js" />
+    <Content Include="wwwroot\SlideShow\SlideShow.css" />
+    <Content Include="wwwroot\ToasterNotification\all.min.css" />
+    <Content Include="wwwroot\ToasterNotification\jquery-migrate-1.2.1.js" />
+    <Content Include="wwwroot\ToasterNotification\jquery-migrate-1.2.1.min.js" />
+    <Content Include="wwwroot\ToasterNotification\toastr.css" />
+    <Content Include="wwwroot\ToasterNotification\toastr.js" />
+    <Content Include="wwwroot\ToasterNotification\toastr.js.map" />
+    <Content Include="wwwroot\ToasterNotification\toastr.min.css" />
+    <Content Include="wwwroot\ToasterNotification\toastr.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CoreCompat.System.Configuration" Version="4.2.3-r4" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="1.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.0.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink.Loader" Version="14.0.*" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="1.0.1" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.8-dmr" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore.Design" Version="8.0.8-dmr" />
+    <PackageReference Include="NuGet.CommandLine" Version="4.1.0" />
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.4.0-preview2-25405-01" />
+    <PackageReference Include="System.IO" Version="4.3.0" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.0.7.6" />
+    <PackageReference Include="System.Linq.Queryable" Version="4.3.0" />
+  </ItemGroup>
+
+  <Target Name="AddWwwRoot" BeforeTargets="AssignTargetPaths" DependsOnTargets="BeforeBuild;BeforePublish">
+    <ItemGroup>
+      <Content Include="wwwroot\**;**\*.cshtml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+  </Target>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="BundlerMinifier.Core" Version="2.4.*" />
+    <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="1.0.0-msbuild3-final" />
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.0-msbuild3-final" />
+	<DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\BusinessEntities\BusinessEntities.csproj" />
+    <ProjectReference Include="..\..\DatabaseAccessLayer\DatabaseAccessLayer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\..\..\..\Desktop\TechShifter-Projects\ShalomSystem\ShalomSystem\bin\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\..\..\..\Desktop\TechShifter-Projects\ShalomSystem\ShalomSystem\bin\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+      <HintPath>..\..\..\..\Desktop\TechShifter-Projects\ShalomSystem\ShalomSystem\bin\System.Net.Http.WebRequest.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>..\..\..\..\Desktop\TechShifter-Projects\ShalomSystem\ShalomSystem\bin\System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\..\..\..\Desktop\TechShifter-Projects\ShalomSystem\ShalomSystem\bin\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\..\..\..\Desktop\TechShifter-Projects\ShalomSystem\ShalomSystem\bin\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages">
+      <HintPath>..\..\..\..\Desktop\TechShifter-Projects\ShalomSystem\ShalomSystem\bin\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor">
+      <HintPath>..\..\..\..\Desktop\TechShifter-Projects\ShalomSystem\ShalomSystem\bin\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Update="system.core %282%29">
+      <HintPath>..\..\..\system.core (2).dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <Target Name="PrecompileScript" BeforeTargets="BeforeBuild;BeforePublish;">
+    <Exec Command="dotnet bundle" />
+  </Target>
+
+</Project>

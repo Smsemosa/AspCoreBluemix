@@ -1,0 +1,7 @@
+C:\Users\StervanosMatomeSemos\Downloads\DotNetStervanos\BusinessEntities\bin\Debug\netcoreapp1.1\BusinessEntities.deps.json
+C:\Users\StervanosMatomeSemos\Downloads\DotNetStervanos\BusinessEntities\bin\Debug\netcoreapp1.1\BusinessEntities.dll
+C:\Users\StervanosMatomeSemos\Downloads\DotNetStervanos\BusinessEntities\bin\Debug\netcoreapp1.1\BusinessEntities.pdb
+C:\Users\StervanosMatomeSemos\Downloads\DotNetStervanos\BusinessEntities\obj\Debug\netcoreapp1.1\BusinessEntities.AssemblyInfo.cs
+C:\Users\StervanosMatomeSemos\Downloads\DotNetStervanos\BusinessEntities\obj\Debug\netcoreapp1.1\BusinessEntities.dll
+C:\Users\StervanosMatomeSemos\Downloads\DotNetStervanos\BusinessEntities\obj\Debug\netcoreapp1.1\BusinessEntities.pdb
+C:\Users\StervanosMatomeSemos\Downloads\DotNetStervanos\BusinessEntities\obj\Debug\netcoreapp1.1\BusinessEntities.csprojResolveAssemblyReference.cache

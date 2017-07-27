@@ -1,0 +1,5 @@
+C:\Users\StervanosMatomeSemos\Downloads\DotNetStervanos\src\WebApplication\bin\Debug\netcoreapp1.0\WebApplication.deps.json
+C:\Users\StervanosMatomeSemos\Downloads\DotNetStervanos\src\WebApplication\bin\Debug\netcoreapp1.0\WebApplication.runtimeconfig.json
+C:\Users\StervanosMatomeSemos\Downloads\DotNetStervanos\src\WebApplication\bin\Debug\netcoreapp1.0\WebApplication.runtimeconfig.dev.json
+C:\Users\StervanosMatomeSemos\Downloads\DotNetStervanos\src\WebApplication\obj\Debug\netcoreapp1.0\WebApplication.AssemblyInfo.cs
+C:\Users\StervanosMatomeSemos\Downloads\DotNetStervanos\src\WebApplication\obj\Debug\netcoreapp1.0\WebApplication.csprojResolveAssemblyReference.cache

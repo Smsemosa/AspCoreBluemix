@@ -1,0 +1,7 @@
+C:\Users\StervanosMatomeSemos\Downloads\DotNetStervanos\DatabaseAccessLayer\bin\Debug\netcoreapp1.1\DatabaseAccessLayer.deps.json
+C:\Users\StervanosMatomeSemos\Downloads\DotNetStervanos\DatabaseAccessLayer\obj\Debug\netcoreapp1.1\DatabaseAccessLayer.AssemblyInfo.cs
+C:\Users\StervanosMatomeSemos\Downloads\DotNetStervanos\DatabaseAccessLayer\obj\Debug\netcoreapp1.1\DatabaseAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\StervanosMatomeSemos\Downloads\DotNetStervanos\DatabaseAccessLayer\bin\Debug\netcoreapp1.1\DatabaseAccessLayer.dll
+C:\Users\StervanosMatomeSemos\Downloads\DotNetStervanos\DatabaseAccessLayer\bin\Debug\netcoreapp1.1\DatabaseAccessLayer.pdb
+C:\Users\StervanosMatomeSemos\Downloads\DotNetStervanos\DatabaseAccessLayer\obj\Debug\netcoreapp1.1\DatabaseAccessLayer.dll
+C:\Users\StervanosMatomeSemos\Downloads\DotNetStervanos\DatabaseAccessLayer\obj\Debug\netcoreapp1.1\DatabaseAccessLayer.pdb
